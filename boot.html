@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <!-- Webpage Title -->
+    <title>Hello, world!</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            width: 900px;
+            margin: auto;
+        }
+
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .a {
+            font-weight: 600;
+            color: blueviolet;
+
+        }
+        form {
+            border: 3px solid lightgreen;
+            border-radius: 5px;
+            width:400px;
+            height:300px;
+            margin: 30px auto;
+            font-size:12px;
+            display:block;
+            line-height:50px;
+            padding: 15px;
+        }
+
+        input{
+            display:inline-block;
+            width:30px;
+        }
+        .b{
+            font-size:10px;
+           
+        }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">나홀로 링크 메모장!</h1>
+        <p class="lead">중요한 링크를 저장해두고, 나중에 볼 수 있는 공간입니다</p>
+        <hr class="my-4">
+        <p></p>
+        <a class="btn btn-success btn-lg" href="#" role="button">포스팅박스 열기</a>
+    </div>
+
+    <!-- middle -->
+
+    <form>
+        <div class="row">
+            <div class="col">
+                아티클 url
+                <input type="text" class="form-control" placeholder="First name">
+           
+                간단코멘트
+                <textarea type="text" class="form-control" placeholder="Last name">
+                    </textarea>
+            </div>
+        </div>
+        <a class="btn btn-success b" href="#" role="button">기사저장</a>
+
+    </form>
+
+
+    <!-- bottom -->
+    <div class="card-columns">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504197885-609741792ce7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> <a href="#">베네치아의 풍경</a></h5>
+                <p class="card-text">눈부시게 아름다운 오늘 아침과 내일</p>
+                <p class="card-title a">여기에 코멘트가 들어갑니다</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> <a href="#">여기 기사 제목이 들어가죠</a></h5>
+                <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
+                <p class="card-title a">여기에 코멘트가 들어갑니다</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1568274179323-00ae07c3e653?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> <a href="#">여기 기사 제목이 들어가죠</a></h5>
+                <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
+                <p class="card-title a">여기에 코멘트가 들어갑니다</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1583484792558-ff08b652bebe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> <a href="#">여기 기사 제목이 들어가죠</a></h5>
+                <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
+                <p class="card-title a">여기에 코멘트가 들어갑니다</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1532117364815-720cd35ff6e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> <a href="#">여기 기사 제목이 들어가죠</a></h5>
+                <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
+                <p class="card-title a">여기에 코멘트가 들어갑니다</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1583484792558-ff08b652bebe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> <a href="#">여기 기사 제목이 들어가죠</a></h5>
+                <p class="card-text">기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...</p>
+                <p class="card-title a">여기에 코멘트가 들어갑니다</p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
